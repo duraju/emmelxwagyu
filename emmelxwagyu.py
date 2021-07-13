@@ -3,7 +3,6 @@ import numpy as np
 nInst=100
 currentPos = np.zeros(nInst)
 
-# Dummy algorithm to demonstrate function format.
 def getMyPosition (prcSoFar):
     global currentPos
     (nins,nt) = prcSoFar.shape # (number of instruments, number of days)
